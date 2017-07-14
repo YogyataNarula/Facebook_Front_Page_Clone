@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Social Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-default" id="header">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--<a class="navbar-brand white-text" href="#">Friendly</a>-->
+  <img src="imgNvideo/fb_icon.png" alt="Facebook" style="width:30px;height:30px;background-color:white;margin-top: 10px;">
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search" style="border-radius:5px 0px 0px 5px;margin-top:-8px;height:28px;width:230px;"/><span class="glyphicon glyphicon-search" aria-hidden="true" id="style_span"></span>
+        </div>
+        <!--<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>-->
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><img src="imgNvideo/person1.jpg" alt="Facebook" style="width:30px;height:30px;background-color:white;margin-top:10px;"></li>
+        <li><a href="#" class="white-text">Yogyata</a></li>
+		    <li><a href="#" class="white-text">Home</a></li>
+		    <li><a href="#" class="white-text"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><span class="badge" style="background-color: red;margin-bottom:15px; ">2</span></a></li>
+		    <li><a href="#" class="white-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span class="badge" style="background-color: red;margin-bottom:15px; ">4</span></a></li>
+		    <li><a href="#" class="white-text"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span class="badge" style="background-color: red;margin-bottom:15px; ">9</span></a></li>
+		     <li><a href="#" class="white-text"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="row" id="wrapper">
+
+<div class="hidden-xs col-sm-4 col-md-3">
+  <div id="menu">
+          <ul class="nav nav-pills nav-stacked">
+
+            <li role="presentation" class="li"><img src="imgNvideo/person1.jpg" alt="Facebook" style="width:30px;height:30px;background-color:white;margin-top:10px;margin-left: 20px;"><span class="arrange_text"><a href="#">Yogyata Narula</a></span></li>
+          <li role="presentation"><i class="fa fa-newspaper-o arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#" style="margin-top: -5px;">News Feed</a></span><span class="adjustSpan badge" style="margin-left:100px;">34</span></li>
+            <li role="presentation"><i class="fa fa-commenting-o arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#">Messenger</a></span><span class="adjustSpan badge" style="margin-left:110px;">3</span></li>
+          </ul>
+          <p class="list-heading">Shortcuts</p>
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><i class="fa fa-users arrange_icon" aria-hidden="true" style="color:blue;"></i><span class="arrange_text"><a href="#">Groups</a></span><span class="adjustSpan badge" style="margin-left:130px;">5</span></li>
+          </ul>
+          <p class="list-heading">Explorer</p>
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><i class="fa fa-calendar arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#">Events</a></span></li>
+            <li role="presentation"><i class="fa fa-file-text arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#">Pages</a></span><span class="adjustSpan badge" style="margin-left:140px; ">1</span></li>
+            <li role="presentation"><i class="fa fa-users arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#">Best Groups</a></span></li>
+            <li role="presentation"><i class="fa fa-clock-o arrange_icon" aria-hidden="true" style="color:blue;"></i><span class="arrange_text"><a href="#">On this day</a></span></li><br>
+            <li role="presentation"><a href="#" style="font-weight: bold;">CREATE</a></li>
+
+                <a href="#" style="margin-left: 16px;">Advert</a>&nbsp;
+                <a href="#">Page</a>&nbsp;
+                <a href="#">Group</a>&nbsp;
+                <a href="#">Event</a>
+
+          </ul>
+
+
+  </div>
+</div>
+<div class="col-xs-12 col-sm-8 col-md-6">
+    <div id="main">
+        <div class="panel panel-default">
+            <div class="panel-heading" style="height:50px;">
+                <ul class="nav nav-pills" style="padding:5px 5px 5px 5px;">
+                    <li role="presentation" class="arrange_li"><i class="fa fa-pencil" aria-hidden="true"></i><span class="arrange_text"><a href="#">Create a Post</a></span>&emsp;&emsp;&emsp;</li>
+                    <li role="presentation" class="arrange_li"><i class="fa fa-camera" style="color:red;" aria-hidden="true"></i><span class="arrange_text"><a href="#">Photo/Video Album</a></span>&emsp;&emsp;&emsp;</li>
+                    <li role="presentation" class="arrange_li"><i class="fa fa-video-camera" aria-hidden="true"></i><span class="arrange_text"><a href="#">Live Video</a></span></li>
+                </ul>
+            </div>
+            <div class="panel-body">
+                What's on your mind?
+            </div>
+            <div class="panel-footer" style="display:flex">
+                <div class="top_panel_footer"><i class="fa fa-picture-o arrange_panel_icon" aria-hidden="true"></i><span><a href="#">Photo/Video</a></span></div>
+                <div class="top_panel_footer"><i class="fa fa-smile-o arrange_panel_icon" aria-hidden="true"></i><span><a href="#">Feeling Activity</a></span></div>
+                <div class="top_panel_footer1"><span><a style="padding:40px 40px 40px 40px;" href="#">...</a></span></div>
+
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+            <li style="list-style: none;"><img src="imgNvideo/person1.jpg" alt="Facebook" style="width:30px;height:30px;background-color:white;margin-top:10px;"><a href="#" class="arrange_a">Yogyata Narula</a></li>
+        </h3>
+      </div>
+      <div class="panel-body">
+
+                <div><h3 class="text-post">Bought a new Dell laptop online</h3></div>
+
+        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+            <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+        </div>
+      </div>
+        <div class="panel-footer">
+          
+            <div class="media">
+               <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="http://via.placeholder.com/32x32" alt="Profile">
+                  </a>
+            </div>
+            <div class="media-body">
+              <!--<h4 class="media-heading">Media heading</h4>-->
+                 <p class="comment"> <span><a href="#">Ritika Manderwal </a></span> Very true :) </p>
+                 <div>
+                 <small> 
+                    <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                 </small>
+                 </div>
+            </div>
+            </div>
+
+            <div class="media">
+               <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="http://via.placeholder.com/32x32" alt="Profile">
+                  </a>
+            </div>
+            <div class="media-body">
+              <!--<h4 class="media-heading">Media heading</h4>-->
+                 <p class="comment"> <span><a href="#">Pulkita Narula </a></span> Great! </p>
+                 <div>
+                 <small> 
+                    <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span> 
+                 </small>
+                 </div>
+            </div>
+            </div>
+            <input style="width: 100%;margin-top: 15px;" placeholder="Write a comment...">
+        </div>
+      </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+            <li style="list-style: none;"><img src="imgNvideo/person2.jpg" alt="Facebook" style="width:30px;height:30px;background-color:white;margin-top:10px;"><a href="#" class="arrange_a">Varsha Koshta</a></li>
+        </h3>
+      </div>
+      <div class="panel-body">
+
+          <div>
+             <blockquote>
+                   <p>All men who have turned out worth anything have had the chief hand in their own education.</p>
+                   <footer>Walter Scott</footer>
+             </blockquote>
+          </div>
+
+        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+            <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+        </div>
+      </div>
+        <div class="panel-footer">
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="http://via.placeholder.com/32x32" alt="Profile">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <!--<h4 class="media-heading">Media heading</h4>-->
+                    <p class="comment"> <span><a href="#">Nikita Mohan </a></span> Nice Saying! </p>
+                    <div>
+                        <small>
+                            <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="http://via.placeholder.com/32x32" alt="Profile">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <!--<h4 class="media-heading">Media heading</h4>-->
+                    <p class="comment"> <span><a href="#">Anudit Verma </a></span> Very True </p>
+                    <div>
+                        <small>
+                            <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <input style="width: 100%;margin-top: 15px;" placeholder="Write a comment...">
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+            <li style="list-style: none;"><img src="imgNvideo/person3.jpg" alt="Facebook" style="width:30px;height:30px;background-color:white;margin-top:10px;"><a href="#" class="arrange_a">Rahul Thakur</a></li>
+        </h3>
+      </div>
+      <div class="panel-body">
+
+           <div class="image-post">
+               <img src="http://www.folomojo.com/wp-content/uploads/2015/02/16/104.jpg" class="img-responsive" alt="Responsive image">
+          </div>
+
+        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+            <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+        </div>
+      </div>
+        <div class="panel-footer">
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="http://via.placeholder.com/32x32" alt="Profile">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <!--<h4 class="media-heading">Media heading</h4>-->
+                    <p class="comment"> <span><a href="#">Ritika Manderwal </a></span> Hahaha :D </p>
+                    <div>
+                        <small>
+                            <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="http://via.placeholder.com/32x32" alt="Profile">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <!--<h4 class="media-heading">Media heading</h4>-->
+                    <p class="comment"> <span><a href="#">Rushil Taneja </a></span> Lol :P </p>
+                    <div>
+                        <small>
+                            <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <input style="width: 100%;margin-top: 15px;" placeholder="Write a comment...">
+        </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+            <li style="list-style: none;"><img src="imgNvideo/person2.jpg" alt="Facebook" style="width:30px;height:30px;background-color:white;margin-top:10px;"><a class="arrange_a" href="#">Anshika Ghai</a></li>
+        </h3>
+      </div>
+      <div class="panel-body">
+
+                <div class="embed-responsive embed-responsive-4by3 image-post">
+                   <!--<iframe class="embed-responsive-item" src="imgNvideo/test_video.mp4" autoplay=0></iframe>-->
+                    <p>Have a look at this!!</p>
+                   <video controls>
+                     <source src="imgNvideo/test_video.mp4" type="video/mp4">
+                   </video>
+                </div>
+                 
+
+
+        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+            <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+        </div>
+      </div>
+        <div class="panel-footer">
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="http://via.placeholder.com/32x32" alt="Profile">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <!--<h4 class="media-heading">Media heading</h4>-->
+                    <p class="comment"> <span><a href="#">Pawan Kocher </a></span> Awesome video !! </p>
+                    <div>
+                        <small>
+                            <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="http://via.placeholder.com/32x32" alt="Profile">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <!--<h4 class="media-heading">Media heading</h4>-->
+                    <p class="comment"> <span><a href="#">Pulkita Narula </a></span> Epic!! </p>
+                    <div>
+                        <small>
+                            <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <input style="width: 100%;margin-top: 15px;" placeholder="Write a comment...">
+        </div>
+    </div>
+
+</div></div>
+
+<div class="hidden-xs hidden-sm col-md-3">
+    <div id="sidebar" style="height:350px;">
+    <div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#toptrends" aria-controls="home" role="tab" data-toggle="tab">Top Trends</a></li>
+            <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab">Politics</a></li>
+            <li role="presentation"><a href="#sport" aria-controls="messages" role="tab" data-toggle="tab">Sport</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="toptrends">
+                <div>
+                <div>
+                <i class="fa fa-line-chart arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#">Maharashtra</a></span>
+            <p class=" tab_padding">
+              Faridabad Launching.Main accused who stabbed Junaid khan....indianexpress.com
+            </p>
+            </div>
+
+            <div>
+                <i class="fa fa-line-chart arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#">Gujarat</a></span>
+                <p class=" tab_padding">
+                    Faridabad Launching.Main accused who stabbed Junaid khan....indianexpress.com
+                </p>
+            </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="politics">
+            <div >
+                <div>
+                    <i class="fa fa-university arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#">Delhi</a></span>
+                    <p class=" tab_padding">
+                        Faridabad Launching.Main accused who stabbed Junaid khan....indianexpress.com
+                    </p>
+                </div>
+                <div>
+                    <i class="fa fa-university arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#">Kerala</a></span>
+                    <p class=" tab_padding">
+                        Faridabad Launching.Main accused who stabbed Junaid khan....indianexpress.com
+                    </p>
+                </div>
+            </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="sport">
+            <div>
+                <div>
+                    <i class="fa fa-futbol-o arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#">Ahemdabad</a></span>
+                    <p class=" tab_padding">
+                        Faridabad Launching.Main accused who stabbed Junaid khan....indianexpress.com
+                    </p>
+                </div>
+                <div>
+                    <i class="fa fa-futbol-o arrange_icon" aria-hidden="true"></i><span class="arrange_text"><a href="#">Tamil Nadu</a></span>
+                    <p class=" tab_padding">
+                        Faridabad Launching.Main accused who stabbed Junaid khan....indianexpress.com
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+</div><br>
+<div id="sidebar2" style="height:65px;">
+    <a style="margin-left: 10px;" href="#">English(UK)</a>&nbsp;
+    <a href="#">English(US)</a>&nbsp;
+    <a href="#">Hindi</a><br>
+    <a style="margin-left: 10px;" href="#">Punjabi</a>
+</div>
+</div>
+	
+</div>
+<footer>
+  <ul class="nav nav-pills pull-right">
+      <li role="presentation "><a href="# ">About Us</a></li>
+      <li role="presentation "><a href="# ">Home</a></li>
+      <li role=" presentation "><a href="# ">Privacy</a></li>
+      <li role="presentation "><a href="# ">Advertising</a></li>
+      <li role="presentation "><a href="# ">Cookies</a></li>
+      <li role="presentation "><a href="# ">Ad Choices</a></li>
+    </ul>
+
+
+</footer>
+	
+</div>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+</body>
+</html>
